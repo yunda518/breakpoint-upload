@@ -1,4 +1,5 @@
 breakpoint-upload
 基于 Golang 实现网页版断点续传工具 —— 通过前端页面交互配合后端逻辑，实现了文件分片传输与断点记录功能。即便夜间上传过程中出现中断，次日也能从断点处继续传输，极大提升了大文件上传的便捷性与稳定性。
+代码本人亲测（我设置了最大可上传单文件大小为20G）
 效果图：
 <img width="2294" height="1418" alt="image" src="https://github.com/user-attachments/assets/72e6d1b6-7055-4867-aecc-8a08b89037e9" />
